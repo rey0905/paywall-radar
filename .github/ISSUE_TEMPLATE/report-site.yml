@@ -1,0 +1,41 @@
+name: Report a site
+description: Add a site to the ledger (hidden paywall, or genuinely free)
+title: "[site] "
+labels: ["site-report"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Site URL
+      description: The homepage, plus the signup or plan page link if you have it
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: What did you find?
+      options:
+        - "Hidden paywall: price only appeared after the signup flow"
+        - "Paid, but the price is shown upfront"
+        - "Genuinely free (or the free tier does the job)"
+        - "Not sure"
+    validations:
+      required: true
+  - type: textarea
+    id: facts
+    attributes:
+      label: What you observed
+      description: Facts only. What the page said, the price and renewal terms, how many steps before the paywall. Please no "scam" labels.
+      placeholder: |
+        No pricing page on the homepage. After 8 questions and a resume upload, a "Choose your plan" page with a countdown timer.
+        Fine print: auto-renews at $XX every month.
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date you checked
+      placeholder: "2026-10-22"
+    validations:
+      required: true

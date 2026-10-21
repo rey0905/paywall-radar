@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="430" viewBox="0 0 880 430" role="img" aria-label="paywall-radar demo: an agent recommends remote job sites and filters out one with a hidden paywall">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 14px; }
+      .dim { fill: #8b949e; }
+      .txt { fill: #e6edf3; }
+      .ok { fill: #3fb950; }
+      .warn { fill: #d29922; }
+      .bad { fill: #f85149; }
+      .head { fill: #e6edf3; font-weight: 700; }
+      .user { fill: #79c0ff; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="879" height="429" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="22" r="6" fill="#27c93f"/>
+  <text x="440" y="27" text-anchor="middle" class="mono dim">paywall-radar</text>
+  <line x1="0" y1="44" x2="880" y2="44" stroke="#30363d"/>
+
+  <text x="28" y="78" class="mono user">&gt; Any good sites for remote PM jobs? I'm in Singapore.</text>
+
+  <text x="28" y="118" class="mono head">Recommended</text>
+  <text x="28" y="144" class="mono"><tspan class="ok">✓ Himalayas</tspan><tspan class="txt" x="230">free to browse and apply · paid AI tools from $9/mo</tspan></text>
+  <text x="28" y="168" class="mono"><tspan class="ok">✓ We Work Remotely</tspan><tspan class="txt" x="230">free listings · optional "Job Seeker Pro"</tspan></text>
+
+  <text x="28" y="208" class="mono head">Unverified</text>
+  <text x="28" y="234" class="mono"><tspan class="warn">? Remote OK</tspan><tspan class="txt" x="230">listings visible · unclear if applying needs Premium</tspan></text>
+
+  <text x="28" y="274" class="mono head">Filtered</text>
+  <text x="28" y="300" class="mono"><tspan class="bad">✕ globalwork.ai</tspan><tspan class="txt" x="230">no pricing page, never says "free"</tspan></text>
+  <text x="230" y="324" class="mono txt">plan screen appears after the signup quiz:</text>
+  <text x="230" y="348" class="mono txt">countdown timer · "50% off" · £0.07/day</text>
+  <text x="230" y="372" class="mono txt">fine print: auto-renews at <tspan class="bad">£155.99/year</tspan></text>
+
+  <line x1="28" y1="392" x2="852" y2="392" stroke="#30363d"/>
+  <text x="28" y="414" class="mono dim">checked without signing up or entering any personal data · 2026-10-22</text>
+</svg>
