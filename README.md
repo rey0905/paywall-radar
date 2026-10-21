@@ -115,7 +115,7 @@ The ledger gets more useful with every site. Found a hidden paywall, or a site t
 
 Rows need **observed facts with a date** (what the page said, where you saw it). No opinions, no "scam" labels. That keeps the list useful and fair.
 
-Improvements to the probe's detection patterns are very welcome too. Please include a site where your change makes a difference. The probe exists in both editions (`scripts/probe.py` and `paywall-radar-zh/scripts/probe.py`); please keep the two copies identical.
+Improvements to the probe's detection patterns are very welcome too. Please include a site where your change makes a difference. The probe exists in both editions (`scripts/probe.py` and `paywall-radar-zh/scripts/probe.py`), and CI checks that the two copies are identical.
 
 ## Limitations
 

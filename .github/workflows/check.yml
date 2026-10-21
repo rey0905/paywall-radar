@@ -1,0 +1,13 @@
+name: check
+
+on: [push, pull_request]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: English and Chinese skills share the same probe
+        run: cmp scripts/probe.py paywall-radar-zh/scripts/probe.py
+      - name: Probe compiles
+        run: python3 -m py_compile scripts/probe.py
